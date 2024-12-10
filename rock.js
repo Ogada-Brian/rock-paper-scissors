@@ -1,16 +1,4 @@
-// console.log("Hello World!");
-// let humanScore = 0;
-// let computerScore = 0;
-
-// getComputerChoice function
-   // generate 3 random numbers (between 1 and 3)
-   // assign the randomly gerated numbers to the available choices
-   // IF number is 1, assign "rock",
-   // ELSE IF number is 2, assign "paper"
-   // ELSE assgin 3 to "scissors" 
-   // RETURN computerChoice
-
-
+// START
    function getComputerChoice(){
     randomNumber = Math.floor(Math.random() * 3) + 1;
 
@@ -26,17 +14,7 @@
     }
     return computerChoice;
    }
-//    console.log(getComputerChoice());
 
-
-   //getHumanChoice
-   //  Display the available choices for the human player
-   // 1 to represent "rock"
-   // 2 to represent "paper"
-   // 3 to represent "scissors"
-   // Prompt the user to enter a choice
-   // If the choice is not a number, greater than 3 or less than 1, tell user to enter a valid choice
-   // ELSE display, you've chosen "choice"
 
    function getHumanChoice(){
     let availabeChoices = "1: Rock\n2: Paper\n3: Scissors";
@@ -60,10 +38,10 @@
         choice = "scissors";
     }
 
-    //console.log(`You chose: ${choice}`);
+
     return choice;
    }
-   //getHumanChoice();
+
 
  // STEP 5
  function playRound(humanChoice, computerChoice) {
