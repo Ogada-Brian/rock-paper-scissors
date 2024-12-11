@@ -1,4 +1,4 @@
-ock, Paper, Scissors Console Game
+Rock, Paper, Scissors Console Game
 A simple implementation of the classic Rock, Paper, Scissors game, playable in the browser console. This project demonstrates basic JavaScript programming concepts.
 
 Features
